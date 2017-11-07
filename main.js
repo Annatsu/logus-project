@@ -5,11 +5,6 @@ const express = require("express");
 const app = express();
 
 /**
- * Project Custom Modules and Options
- */
-const config = require("./config.json");
-
-/**
  * Setting up Express
  */
 app.use(express.static('public'));
