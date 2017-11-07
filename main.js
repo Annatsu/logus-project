@@ -14,6 +14,7 @@ const config = require("./config.json");
  */
 app.use(express.static('public'));
 app.set("view engine", "ejs");
+app.set('port', (process.env.PORT || 5000));
 
 /**
  * Basic routing on home
@@ -28,8 +29,8 @@ app.get(['/', '/home'], (req, res) => {
 const posts = require('./posts')(app);
 
 /**
- * Starts listening at the port defined in config.json
+ * Starts listening at the port
  */
-app.listen(config.port, () => {
-    console.log("Server started.");
+app.listen(app.get('port'), function() {
+    console.log('Node app is running on port', app.get('port'));
 });
