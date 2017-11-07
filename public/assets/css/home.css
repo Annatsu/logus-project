@@ -1,8 +1,8 @@
 header {
-    margin-top: 50px;
     position: relative;
-    padding: 50px 0;
+    padding: 150px 0;
     text-align: center;
+    color: #fff;
 }
 
 #header-background {
@@ -11,32 +11,98 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/assets/img/background.jpg') no-repeat;
+    background: url('/assets/img/background.png') no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
 }
 
-#header-title {
-    position: relative;
-    padding: 10% 0;
-    color: #fff;
-    margin: 0;
-}
-
-.category-card {
-    position: relative;
-    border-radius: 4px;
-    height: 200px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 40px;
-}
-
-.category-card > span {
+#navbar {
     position: absolute;
-    top: 50%;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
+
+#navbar > div {
+    width: 100%;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15.52px;
+    color: #d1d1d1;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#navbar-right {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar-right > li {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#header-content {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#logo {
+    margin: 20px auto;
+}
+
+#header-content > h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#header-content > p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+#go-to-class {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15.2px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #10b383;
+    transition: .5s padding ease-in-out,
+        .5s background-color ease-in-out;
+    border: none;
+}
+
+#go-to-class:hover {
+    padding: 10px 50px;
+    background-color: #1eca97;
+}
+
+#know-more {
+    position: absolute;
+    bottom: 40px;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    transform: translateX(-50%);
+    transition: .5s bottom ease-in-out;
+    cursor: pointer;
+}
+
+#know-more:hover {
+    bottom: 20px;
+}
+
+#know-more img {
+    margin: 0 auto;
+}
+
+#know-more p {
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
 }
