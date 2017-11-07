@@ -1,0 +1,113 @@
+/**
+ * @Author: Brendon Pagano
+ * @Date:   2017-07-12 00:39:58
+ * @Email:  brendonpagano@gmail.com
+ * @Filename: class.css
+ * @Last modified by:   Brendon Pagano
+ * @Last modified time: 2017-07-12 02:56:18
+ * @License: MIT
+ */
+
+#selector-header {
+  padding: 10px;
+  background-color: #009EE0;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#selector-icon {
+  padding-right: 0;
+}
+
+#selector-title {
+  padding: 0;
+  margin-top: 10px;
+}
+
+#selector-title > * {
+  margin: 0;
+  padding: 0;
+}
+
+#selector-body {
+  background-color: #2C2C2C;
+  border: 1px solid #181818;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#selector-classes-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#selector-classes-list > li {
+  position: relative;
+  color: #fff;
+  border-top: 0.5px solid #181818;
+}
+
+#selector-classes-list > li .icon {
+  padding-right: 0;
+  position: relative;
+}
+
+#selector-classes-list > li .icon > img {
+  margin-top: 10px;
+}
+
+#selector-classes-list > li .title {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* Class Viewer */
+
+#class-view {
+  border: 1px solid #eaeaea;
+  padding: 0;
+}
+
+#class-header {
+  padding: 20px 0;
+  background-color: #232124;
+  color: #fff;
+  text-align: center;
+}
+
+#class-header-icon {
+  width: 150px;
+  margin: 0 auto;
+}
+
+#class-header > p {
+  margin: 10px 0 10px 0;
+}
+
+#class-body {
+  padding: 15px;
+}
+
+#class-title > h3 {
+  font-weight: bold;
+}
+
+#class-post-info > p {
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#class-content > h4 {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#class-content > h4:first-child {
+  padding: 0;
+}
+
+#class-content > p {
+  font-size: 16px;
+}

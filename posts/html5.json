@@ -1,0 +1,39 @@
+{
+    "title": "HTML5",
+    "posts": [
+        {
+            "title": "Novas tags do HTML5",
+            "img": "https://thumbs.dreamstime.com/b/html-tags-printed-internet-code-30681022.jpg",
+            "timestamp": "28/10/2017",
+            "views": 12,
+            "author": "Brendon Pagano",
+            "references": [
+                {
+                    "name": "MDN",
+                    "url": "https://developer.mozilla.org"
+                },
+                {
+                    "name": "DevMedia",
+                    "url": "https://www.devmedia.com.br"
+                }
+            ],
+            "content": [
+                "É indiscutível que o HTML5 trouxe diversas novidades para a área de desenvolvimento web. Dentre essas novidades, estão as novas tags disponíveis na nova versão. Neste post, serão exibidas e discutidas a maioria das mudanças ocorridas durante essa transição.",
+
+                ["<nav>", "O Elemento HTML de Navegação (nav) representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.", ["Annatsu/32f0a697a216ab5836aabfee0cc882be"]],
+
+                ["<header>", "Antes de tudo, cuidado para não confundir header com head.", "O elemento HTML header representa um grupo de suporte introdutório ou navegacional. Pode conter alguns elementos de cabeçalho mas também outros elementos como um logo, seções de cabeçalho, formulário de pesquisa, e outros.", ["Annatsu/0aef3b3691466b62b0eeb40ae64262dd"]],
+
+                ["<footer>", "O elemento HTML de Rodapé (footer) representa um rodapé para o seu sectioning content (conteúdo de seção) mais próximo ou sectioning root elemento (ou seja, seu parente mais próximo article, aside, nav, section, blockquote, body, details, fieldset, figure, td). Normalmente um rodapé contém informações sobre o autor da seção de dados, direitos autorais ou links para documentos relacionados.", ["Annatsu/c487f7ea98dee41464ebfdce74114ee1"]],
+
+                ["<article>", "O Elemento HTML Article (article) representa uma composição independente em um documento, página, aplicação, ou site, ou que é destinado a ser distribuido de forma independente ou reutilizável, por exemplo, em sindicação. Este poderia ser o post de um fórum, um artigo de revista ou jornal, um post de um blog, um comentário enviado por um usuário, um gadget ou widget interativos, ou qualquer outra forma de conteúdo independente.", ["Annatsu/16ae48aa5c68306a69b96187cc9abe17"]],
+
+                ["<section>", "O elemento HTML section representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo.", "Por exemplo, um menu de navegação deve estar dentro um elemento nav, mas uma lista de resultados de pesquisa ou a exibição de um mapa e seus controles não possuem elementos específicos, e podem ser colocados dentro de uma section.", ["Annatsu/ca9a4edb4d55daa51f049093757aeba6"]],
+
+                "Para facilitar, vamos disponibilizar uma imagem do site DevMedia contendo todas as tags novas, descontinuadas e continuadas do HTML5.",
+
+                "<a href=\"http://arquivo.devmedia.com.br/artigos/Joel_Rodrigues/infograficoHTML.jpg\" target=\"_blank\"><img src=\"http://arquivo.devmedia.com.br/artigos/Joel_Rodrigues/infograficoHTML.jpg\" class=\"img-responsive\" /></a>"
+            ]
+        }
+    ]
+}

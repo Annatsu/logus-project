@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <%- include('include/meta-opts.html'); %>
+
+    <title><%= data.title %> | Logus</title>
+
+    <!-- Vendor CSS -->
+    <%- include('include/vendor-css.html'); %>
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="/assets/css/theme.css" rel="stylesheet" />
+    <link href="/assets/css/post.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+
+    <%- include('partial/navbar.html'); %>
+
+    <div class="container" id="main-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <h3 id="post-title"><%= data.title %></h3>
+                <span class="meta-info text-muted"><i class="fa fa-clock-o fa-fw"></i> <%= data.timestamp %></span>
+                <span class="meta-info text-muted" style="margin-left: 10px;"><i class="fa fa-eye fa-fw"></i> <%= data.views %></span>
+
+                <div id="post-content">
+                    <% data.content.forEach(c => { %>
+                        <% if (typeof c === 'string') { %>
+                            <%- c %>
+                        <% } else if (typeof c === 'object') { %>
+                            <p class="lead"><%= c[0] %></p>
+                            <% for (let i = 1; i < c.length; i++) { %>
+                                <% if (typeof c[i] === 'string') { %>
+                                    <p><%- c[i] %></p>
+                                <% } else if (typeof c[i] === 'object') { %>
+                                    <script src="https://gist.github.com/<%= c[i][0] %>.js"></script>
+                                <% } %>
+                            <% } %>
+                        <% } %>
+                    <% }); %>
+                </div>
+
+                <% if (data.references) { %>
+                    <div id="post-references">
+                        <p class="lead">Referências</p>
+                        <% data.references.forEach(r => { %>
+                            <a href="<%= r.url %>" class="reference" target="_blank"><%= r.name %></a>
+                        <% }); %>
+                    </div>
+                <% } %>
+            </div>
+        </div>
+    </div>
+
+    <%- include('partial/footer.html'); %>
+
+    <!-- Vendor JS -->
+    <%- include('include/vendor-js.html'); %>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+
+</html>

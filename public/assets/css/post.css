@@ -1,0 +1,42 @@
+#post-title {
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+
+#post-content {
+    margin-top: 20px;
+}
+
+#post-references {
+    margin-top: 20px;
+}
+
+.reference {
+    background-color: #fff;
+    border: 1px solid #cecece;
+    color: #212121;
+    border-radius: 4px;
+    padding: 5px 10px;
+    -webkit-transition: background-color .3s ease-in-out,
+        color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out,
+        color .3s ease-in-out;
+    transition: background-color .3s ease-in-out,
+        color .3s ease-in-out;
+}
+
+.reference:hover {
+    text-decoration: none;
+    background-color: #009ee0;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+/* override bootstrap */
+.lead {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,55 @@
+{
+    "title": "JavaScript",
+    "posts": [
+        {
+            "title": "JavaScript: Uma breve introdução e história",
+            "img": "http://www.thetricolour.com/pictures/brendan-eich.jpg",
+            "timestamp": "12/10/2017",
+            "views": "18",
+            "author": "Brendon Pagano",
+            "references": [
+                {
+                    "name": "Redmonk",
+                    "url": "http://redmonk.com/sogrady/2017/06/08/language-rankings-6-17/"
+                }
+            ],
+            "content": [
+                ["Introdução", "Javascript é uma linguagem de programação interpretada baseada em scripts e padronizada pela ECMA International. Foi criada por Brendan Eich e surgiu na década de 90 como linguagem de script client-side de páginas web.", "Embora seja baseada em scripts, não se engane, o Javascript vai muito além disso. É uma linguagem dinâmica, orientada a objetos e criada com sintaxe similar à Java.", "Segundo uma pesquisa feita pelo site Redmonk, o Javascript ocupa o primeiro lugar em uma comparação das linguagens de programação mais populares de 2017, na frente de gigantes como Java, Python, PHP e outras."],
+
+                ["História", "O Javascript foi criado por Brendan Eich em 1995 para a Netscape sob o nome \"Mocha\". Posteriormente mudando seu nome para “Livescript” e, mais tarde, para Javascript.", "Em 1997, a linguagem adotou o padrão ECMAScript (ES1). Atualmente, o ECMAScript encontra-se na versão 6 (ES6) e o Javascript está em fase de adaptação, portanto, ainda usa como padrão o ES5, embora seja possível desenvolver aplicativos usando a nova versão do ECMAScript."],
+
+                ["Sintáxe e Tipos de Dados", "Uma das maiores influências da sintaxe de Javascript, com certeza, foi Java. Ambas são muito parecidas, portanto, você não terá dificuldades de aprender e se acostumar com Javascript se souber Java. Mas, não se preocupe, isso não é um requisito, você pode aprender Javascript mesmo sem saber Java ou qualquer outra linguagem de programação."]
+            ]
+        },
+        {
+            "title": "Sintáxe básica e alguns comandos",
+            "img": "https://regmedia.co.uk/2016/10/17/javascript_photo_via_shutterstock.jpg?x=442&y=293&crop=1",
+            "timestamp": "20/10/2017",
+            "views": 26,
+            "author": "Brendon Pagano",
+            "references": [
+                {
+                    "name": "MDN",
+                    "url": "https://developer.mozilla.org"
+                }
+            ],
+            "content": [
+                "JavaScript pega emprestado a maior parte de sua sintaxe do Java, mas também é influenciado por Awk, Perl e Python.",
+
+                "JavaScript é case-sensitive e usa o conjunto de caracteres Unicode.",
+
+                "No JavaScript, instruções são chamadas de declaração e são separadas por um ponto e vírgula (;). Espaços, tabulação e uma nova linha são chamados de espaços em branco. O código fonte dos scripts em JavaScript são lidos da esquerda para a direita e são convertidos em uma sequência de elementos de entrada como simbolos, caracteres de controle, terminadores de linha, comentários ou espaço em branco. ECMAScript também define determinadas palavras-chave e literais, e tem regras para inserção automática de ponto e vírgula (ASI) para terminar as declarações. No entanto, recomenda-se sempre adicionar ponto e vírgula no final de suas declarações; isso evitará alguns imprevistos.",
+
+                ["Comentários", "A sintaxe dos comentários em JavaScript é semelhante como em Java e em muitas outras linguagens:", ["Annatsu/ad511dc581920de4385e1c1ac4273a91"]],
+
+                ["Declarações", "Existem três tipos de declarações em JavaScript.", "<i>var</i> - Declara uma variável, opcionalmente, inicializando-a com um valor.", "<i>let</i> (ES6) - Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor.", "<i>const</i> (ES6) - Declara uma constante apenas de leitura."],
+
+                ["Declarando variáveis", "Você pode declarar uma variável de três formas:", "Com a palavra chave <i>var</i>. Por exemplo, <i>var x = 42</i>. Esta sintaxe pode ser usada para declarar tanto variáveis locais como variáveis globais.", "Por simples adição de valor. Por exemplo, <i>x = 42</i>. Isso declara uma variável global. Essa declaração gera um aviso de advertência no JavaScript. Você não deve usar essa variante.", "Com a palavra chave <i>let</i>. Por exemplo, <i>let y = 13</i>. Essa sintaxe pode ser usada para declarar uma variável local de escopo de bloco."],
+
+                ["Classificando variáveis", "Uma variável declarada usando a declaração var ou let sem especificar o valor inicial tem o valor <i>undefined</i>.", "Uma tentativa de acessar uma variável não declarada resultará no lançamento de uma exceção <i>ReferenceError</i>:", ["Annatsu/76983b7e3eb99ef8aeeb8ab3009dd127"], "Você pode usar <i>undefined</i> para determinar se uma variável tem um valor. No código a seguir, não é atribuído um valor de entrada na variável e a declaração <i>if</i> será avaliada como verdadeira.", ["Annatsu/237fe072812419f1ae387f8a84690c3a"]],
+
+                ["Escopo de variável", "Quando você declara uma váriavel fora de qualquer função, ela é chamada de variável global, porque está disponível para qualquer outro código no documento atual. Quando você declara uma variável dentro de uma função, é chamada de variável local, pois ela está disponível somente dentro dessa função.", "JavaScript antes do ECMAScript 6 não possuía escopo de declaração de bloco; pelo contrário, uma variável declarada dentro de um bloco de uma função é uma variável local (ou contexto global) do bloco que está inserido a função. Por exemplo o código a seguir exibirá 5, porque o escopo de <i>x</i> está na função (ou contexto global) no qual <i>x</i> é declarado, não o bloco, que neste caso é a declaração <i>if</i>.", ["Annatsu/d89208a75c0453ea3da1ec73f348358b"], "Esse comportamento é alterado, quando usado a declaração <i>let</i> introduzida pelo ECMAScript 6.", ["Annatsu/565f462a686dcb292faf4bb9e6710b1b"]]
+            ]
+        }
+    ]
+}

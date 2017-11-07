@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <%- include('include/meta-opts.html'); %>
+
+        <title>Logus</title>
+
+        <!-- Vendor CSS -->
+        <%- include('include/vendor-css.html'); %>
+
+            <!-- Google Fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+
+            <!-- Theme CSS -->
+            <link href="/assets/css/theme.css" rel="stylesheet" />
+            <link href="/assets/css/home.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+
+    <%- include('partial/navbar.html'); %>
+
+        <header>
+            <div id="header-background"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 id="header-title">Bem vindo ao Logus</h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container" id="main-container" style="margin-top: 30px;">
+
+            <div class="row" align="center">
+                <h3 style="margin-top: 0; margin-bottom: 20px;">Escolha uma das categorias e comece a pesquisar!</h3>
+            </div>
+
+            <div class="col-sm-4 col-xs-12">
+                <a href="/posts/html5">
+                    <div class="category-card" style="background-color: #F16529; color: #FFF;">
+                        <span>HTML 5</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-4 col-xs-12">
+                <a href="/posts/javascript">
+                    <div class="category-card" style="background-color: #F7DF1E; color: #000;">
+                        <span>JavaScript</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-4 col-xs-12">
+                <a href="/posts/css3">
+                    <div class="category-card" style="background-color: #29A9DF; color: #FFF;">
+                        <span>CSS 3</span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <%- include('partial/footer.html'); %>
+
+            <!-- Vendor JS -->
+            <%- include('include/vendor-js.html'); %>
+
+</body>
+
+</html>

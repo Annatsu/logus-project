@@ -1,0 +1,21 @@
+{
+  "name": "logus-project",
+  "version": "1.0.0",
+  "description": "A site with programming classes",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "keywords": [
+    "site",
+    "logus",
+    "javascript"
+  ],
+  "author": "Brendon Pagano",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
+  }
+}

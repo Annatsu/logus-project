@@ -1,0 +1,42 @@
+header {
+    margin-top: 50px;
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/assets/img/background.jpg') no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header-title {
+    position: relative;
+    padding: 10% 0;
+    color: #fff;
+    margin: 0;
+}
+
+.category-card {
+    position: relative;
+    border-radius: 4px;
+    height: 200px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+
+.category-card > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}

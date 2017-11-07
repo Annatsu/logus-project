@@ -1,0 +1,25 @@
+{
+    "title": "CSS3",
+    "posts": [
+        {
+            "title": "Seletores no CSS3",
+            "img": "https://web3canvas.com/wp-content/uploads/2013/11/css-3-selectors.jpg",
+            "timestamp": "01/11/2017",
+            "views": 21,
+            "author": "Wellinton Botelho",
+            "content": [
+                ["Seletores", "Um seletor é um padrão utilizado para referenciar-se a um ou vários elementos do HTML, para que possamos personalizar tais elementos."],
+
+                ["1 - Seletor #", "Seleciona um elemento pela sua identificação, pelo seu ‘id’.", ["Annatsu/07080b03ba195fa089abc67d9fe25492"]],
+
+                ["2 - Seletor .", "Seleciona um elemento pela sua classe, pelo ‘class’.", ["Annatsu/0351ad1e6e01a4a864443cc9b039a2ac"]],
+
+                ["Diferença entre o seletor id e o class", "É comum não enxergar a diferença entre estes seletores, pois ambos produzem o mesmo resultado. O que os difere, é um pequeno detalhe. Você usará o ‘id’ para referenciar-se à apenas um elemento, já o class será usado para para fazer ‘referência’ a vários elementos de uma mesma classe.", "Exemplos: Queremos identar apenas elementos da classe paragraph.", ["Annatsu/2e5a77414d870b6fa2e4a6ff8ed052d6"], "Agora, queremos identar apenas o segundo parágrafo.", ["Annatsu/fe8dd1e4ddd005afe1e0d989626d9df9"]],
+
+                ["3 - Seletor *", "Seleciona todos os elementos do HTML.", "Exemplo: Retirar a margem e o espaçamento padrão de todos os elementos da página.", ["Annatsu/f306f976acf95bb1f1b62faf1bdbb7cf"]],
+
+                ["4 - Seletor >", "Seleciona todos os filhos de um elemento.", "Exemplo: Selecionar apenas os filhos(páragrafos) diretos da div ‘container’, colorindo-os de vermelho.", ["Annatsu/e9fc12266584b7ba34daedf6fe4f3a21"], "Observe que foram personalizados apenas os filhos da div ‘container’ e não os da ‘outra-div’. O parágrafo ‘lorem ipsum’ não foi personalizado pois é filho de ‘outra-div’."]
+            ]
+        }
+    ]
+}
