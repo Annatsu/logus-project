@@ -1,3 +1,5 @@
+/* Header */
+
 header {
     position: relative;
     padding: 150px 0;
@@ -105,4 +107,39 @@ header {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     margin-top: 10px;
+}
+
+/* Sections */
+
+section {
+    padding: 20px 0;
+}
+
+#about {
+    background-color: #fefefe;
+    text-align: center;
+}
+
+#about .col-xs-12 {
+    text-align: center;
+}
+
+#about h2 {
+    color: #353535;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#about p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #979ea3;
+    margin-top: 20px;
+}
+
+#about h2,
+#about p {
+    max-width: 736px;
 }
