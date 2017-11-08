@@ -1,6 +1,6 @@
 const data = {
-    'html5': require('./posts/html5.json'),
-    'css3': require('./posts/css3.json'),
+    'html': require('./posts/html.json'),
+    'css': require('./posts/css.json'),
     'javascript': require('./posts/javascript.json')
 };
 

@@ -27,15 +27,58 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12" align="center">
-                    <h2>O que é a Logus?</h2>
-                    <p>A Logus é uma plataforma que disponibiliza conteúdo sobre desenvolvimento web por meio de posts, apostilas, quizzes e vídeos.</p>
+                <div class="col-xs-12">
+
+                    <div class="about-wrapper">
+                        <h2>O que é a Logus?</h2>
+                        <p>A Logus é uma plataforma que disponibiliza conteúdo sobre desenvolvimento web por meio de posts, apostilas, quizzes e vídeos.</p>
+                    </div>
+
+                    <div class="about-wrapper">
+                        <h2>Por qual razão a Logus foi criada?</h2>
+                        <p>O ínicio da plataforma Logus se deu devido a demanda de um trabalho em grupo da universidade.</p>
+                    </div>
+
+                    <div class="about-wrapper">
+                        <h2>Por quem a Logus foi criada?</h2>
+                        <p>A plataforma Logus foi criada por três graduandos do curso de Sistemas de Informação pela Universidade Federal do Rio Grande - FURG.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <%- include('partial/footer.html'); %>
+    <section id="classes">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <a href="/posts/html">
+                        <div class="category-card" style="background-color: #F16529; color: #FFF;">
+                            <span>HTML</span>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="col-sm-4 col-xs-12">
+                    <a href="/posts/javascript">
+                        <div class="category-card" style="background-color: #F7DF1E; color: #000;">
+                            <span>JavaScript</span>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="col-sm-4 col-xs-12">
+                    <a href="/posts/css">
+                        <div class="category-card" style="background-color: #29A9DF; color: #FFF;">
+                            <span>CSS</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include Footer -->
 
     <!-- Vendor JS -->
     <%- include('include/vendor-js.html'); %>
